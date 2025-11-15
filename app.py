@@ -1,3 +1,6 @@
+""" 
+GUI版では使いません。 
+"""
 from flask import Flask, render_template, request  # フォームからデータを受け取るためにreqestをインポート
 
 app = Flask(__name__) # nameはPythonで実行しているファイル名を指す
